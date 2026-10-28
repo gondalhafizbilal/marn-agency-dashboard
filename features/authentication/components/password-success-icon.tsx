@@ -1,0 +1,37 @@
+import { cn } from "@/lib/utils";
+
+type PasswordSuccessIconProps = {
+  className?: string;
+};
+
+/**
+ * Success shield mark from Figma (pink ring + white disc + official shield SVG).
+ */
+export function PasswordSuccessIcon({ className }: PasswordSuccessIconProps) {
+  return (
+    <div
+      className={cn("relative mx-auto size-[120px] sm:size-[150px]", className)}
+      aria-hidden
+    >
+      <div className="absolute inset-0 rounded-full bg-brand-25" />
+      <div className="absolute inset-[10%] rounded-full bg-white sm:inset-[12.26px]" />
+      <div className="absolute inset-0 flex items-center justify-center">
+        <svg
+          width="59"
+          height="69"
+          viewBox="0 0 59 69"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-[55px] w-auto drop-shadow-[0px_24px_48px_rgba(31,42,55,0.3)] sm:h-[69px]"
+        >
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M28.2841 68.4532C28.6647 68.6521 29.0904 68.7532 29.5161 68.7498C29.9417 68.7465 30.3639 68.642 30.7481 68.4397L43.0127 61.8835C46.4906 60.0295 49.2142 57.9565 51.339 55.5429C55.959 50.2845 58.4818 43.5731 58.4368 36.6528L58.2915 13.8256C58.2776 11.1963 56.5508 8.85022 53.9968 7.9974L31.1807 0.342252C29.8068 -0.122922 28.3014 -0.11281 26.9517 0.365848L4.22209 8.29404C1.68197 9.18056 -0.0137585 11.5435 8.41222e-05 14.1761L0.145432 36.9865C0.190421 43.917 2.79976 50.5979 7.49588 55.8025C9.64149 58.1823 12.3893 60.225 15.9053 62.0486L28.2841 68.4532ZM25.0373 41.6245C25.5495 42.1166 26.214 42.3593 26.8784 42.3525C27.5429 42.3492 28.2038 42.0997 28.7091 41.6009L42.1122 28.3872C43.1193 27.3928 43.1089 25.795 42.0915 24.8141C41.0706 23.8332 39.4268 23.84 38.4197 24.8344L26.8403 36.248L22.0992 31.6906C21.0783 30.7097 19.438 30.7198 18.4275 31.7142C17.4204 32.7086 17.4308 34.3064 18.4517 35.2873L25.0373 41.6245Z"
+            fill="#A11D3A"
+          />
+        </svg>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,528 @@
+{
+  "common": {
+    "appName": "مارن",
+    "loading": "جاري التحميل...",
+    "tryAgain": "حاول مرة أخرى",
+    "backToDashboard": "العودة إلى لوحة التحكم",
+    "comingSoon": "قريباً.",
+    "somethingWentWrong": "حدث خطأ ما",
+    "unexpectedError": "حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى.",
+    "pageNotFound": "الصفحة غير موجودة",
+    "pageNotFoundDescription": "هذه الصفحة غير موجودة أو ربما تم نقلها. عد إلى لوحة التحكم للمتابعة.",
+    "heroBanner": {
+      "ariaLabel": "بانر ترويجي"
+    }
+  },
+  "nav": {
+    "menu": "القائمة الرئيسية",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "dashboard": "لوحة التحكم",
+    "requests": "الطلبات",
+    "ads": "الإعلانات",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "packages": "الباقات",
+    "logout": "تسجيل الخروج",
+    "agencies": "الوكالات",
+    "projects": "المشاريع",
+    "clients": "العملاء",
+    "users": "المستخدمون"
+  },
+  "logoutModal": {
+    "title": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+    "confirm": "تسجيل الخروج"
+  },
+  "confirmDialog": {
+    "confirm": "نعم",
+    "cancel": "إلغاء",
+    "close": "إغلاق"
+  },
+  "shareDialog": {
+    "title": "مشاركة عبر",
+    "close": "إغلاق",
+    "facebook": "فيسبوك",
+    "instagram": "إنستغرام",
+    "twitter": "تويتر",
+    "whatsapp": "واتساب",
+    "linkedin": "لينكدإن",
+    "pinterest": "بينتيريست"
+  },
+  "auth": {
+    "signIn": "تسجيل الدخول",
+    "signingIn": "جاري تسجيل الدخول...",
+    "signUp": "إنشاء حساب",
+    "registering": "جاري إنشاء الحساب...",
+    "registerAccount": "تسجيل حساب",
+    "registerDescription": "سجّل الدخول باستخدام بريدك الإلكتروني وكلمة المرور أو وسائل التواصل للمتابعة",
+    "agencyType": "نوع الوكالة",
+    "agencyTypePlaceholder": "اختر نوع الوكالة",
+    "agencyTypeTravel": "وكالة سفر",
+    "agencyTypeRecruitment": "وكالة استقدام",
+    "agencyTypeServices": "وكالة خدمات",
+    "agencyTypeOther": "أخرى",
+    "addDocuments": "إضافة مستندات",
+    "uploadHint": "اضغط هنا للرفع",
+    "removeFile": "إزالة الملف",
+    "documentsRequired": "يرجى رفع مستند واحد على الأقل",
+    "agreeTerms": "الموافقة على الشروط والخصوصية",
+    "alreadyHaveAccount": "لديك حساب بالفعل ؟",
+    "welcomeBack": "مرحباً بعودتك !",
+    "forgotPassword": "نسيت كلمة المرور",
+    "forgotPasswordTitle": "نسيت كلمة المرور",
+    "forgotPasswordLink": "نسيت كلمة المرور ؟",
+    "signInDescription": "سجّل الدخول باستخدام بريدك الإلكتروني وكلمة المرور أو وسائل التواصل للمتابعة",
+    "forgotPasswordDescription": "أدخل بريدك الإلكتروني وسنرسل لك رابط إعادة التعيين",
+    "forgotPasswordSelectDescription": "اختر وسيلة التواصل التي نستخدمها لإعادة تعيين كلمة المرور",
+    "signUpComingSoon": "سيتم إضافة نموذج التسجيل من Figma لاحقاً.",
+    "contactNumber": "رقم التواصل",
+    "countryCode": "رمز الدولة",
+    "phonePlaceholder": "1234 4567",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "name@example.com",
+    "password": "كلمة المرور",
+    "passwordPlaceholder": "••••••••",
+    "showPassword": "إظهار كلمة المرور",
+    "hidePassword": "إخفاء كلمة المرور",
+    "rememberMe": "تذكرني",
+    "noAccount": "ليس لديك حساب ؟",
+    "viaWhatsapp": "عبر واتساب",
+    "viaEmail": "عبر البريد الإلكتروني",
+    "continue": "متابعة",
+    "sendingCode": "جاري الإرسال...",
+    "enterVerificationCode": "أدخل رمز التحقق",
+    "otpSentWhatsapp": "يرجى إدخال رمز التحقق المكوّن من 4 أرقام الذي أُرسل إلى واتساب.",
+    "otpSentEmail": "يرجى إدخال رمز التحقق المكوّن من 4 أرقام الذي أُرسل إلى بريدك الإلكتروني.",
+    "otpRequired": "أدخل الرمز المكوّن من 4 أرقام",
+    "didNotReceiveCode": "لم تستلم الرمز ؟",
+    "resendCode": "إعادة إرسال الرمز",
+    "createNewPassword": "إنشاء كلمة مرور جديدة",
+    "createNewPasswordDescription": "يرجى إدخال كلمة مرور جديدة للتغيير",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "savePassword": "حفظ كلمة المرور",
+    "savingPassword": "جاري الحفظ...",
+    "passwordSuccessTitle": "تم بنجاح!",
+    "passwordSuccessDescription": "تم تغيير كلمة المرور. يرجى تسجيل الدخول مرة أخرى بكلمة المرور الجديدة.",
+    "logInAgain": "تسجيل الدخول"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "description": "سيتم تنفيذ أدوات التحليلات في الوحدة 5.",
+    "adsStats": {
+      "ariaLabel": "ملخص الإعلانات",
+      "totalAds": "إجمالي الإعلانات",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "drafts": "مسودات"
+    },
+    "adsFilter": {
+      "ariaLabel": "تصفية الإعلانات",
+      "all": "كل الإعلانات",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "viewAll": "عرض الكل"
+    },
+    "adCard": {
+      "empty": "لا توجد إعلانات في هذه الفئة.",
+      "dateCreated": "تاريخ الإنشاء: {date} (صالح لمدة {days} يومًا)",
+      "metricActive": "نشط",
+      "views": "{count} مشاهدة",
+      "clicks": "{count} نقرة",
+      "status": {
+        "active": "نشط",
+        "inactive": "غير نشط",
+        "draft": "مسودة"
+      },
+      "actions": {
+        "republish": "تحديث الحالة",
+        "share": "مشاركة",
+        "edit": "تعديل",
+        "delete": "حذف",
+        "view": "عرض"
+      },
+      "confirm": {
+        "deleteTitle": "هل أنت متأكد أنك تريد حذف هذا الإعلان؟",
+        "deleteDescription": "سيتم حذف الإعلان من قائمتك.",
+        "deleteConfirm": "حذف",
+        "statusTitle": "هل تريد تحديث حالة هذا الإعلان؟",
+        "markActive": "تعيين كنشط",
+        "markInactive": "تعيين كغير نشط"
+      }
+    },
+    "pagination": {
+      "ariaLabel": "ترقيم الإعلانات",
+      "previous": "السابق",
+      "next": "التالي"
+    },
+    "adDetails": {
+      "title": "التفاصيل",
+      "description": "الوصف",
+      "back": "العودة إلى القائمة",
+      "nationality": "الجنسية",
+      "maritalStatus": "الحالة الاجتماعية",
+      "age": "العمر",
+      "kids": "الأطفال",
+      "education": "التعليم",
+      "language": "اللغة",
+      "experience": "الخبرة",
+      "height": "الطول",
+      "weight": "الوزن",
+      "skills": {
+        "nannies": "مربيات",
+        "drivers": "سائقون",
+        "caretakers": "مقدمات رعاية",
+        "electrician": "كهربائي",
+        "elderly": "كبار السن",
+        "nurse": "ممرض/ة",
+        "babySitter": "جليسة أطفال",
+        "cooker": "طباخ/ة"
+      }
+    }
+  },
+  "ads": {
+    "title": "الإعلانات",
+    "toolbar": {
+      "searchLabel": "البحث في الإعلانات",
+      "searchPlaceholder": "ابحث عن شيء",
+      "export": "ترتيب حسب",
+      "filter": "تصفية",
+      "addAd": "نشر إعلان"
+    },
+    "searchEmpty": {
+      "title": "لم يتم العثور على نتائج",
+      "description": "يرجى تفعيل خدمات الموقع للحصول على نتائج أفضل"
+    },
+    "filter": {
+      "title": "تصفية",
+      "close": "إغلاق التصفية",
+      "nationality": "الجنسية",
+      "priceRange": "نطاق السعر",
+      "priceMin": "الحد الأدنى للسعر",
+      "priceMax": "الحد الأقصى للسعر",
+      "priceLabel": "ر.ق{amount}",
+      "reset": "إعادة تعيين",
+      "apply": "تطبيق",
+      "nationalities": {
+        "pakistan": "باكستان",
+        "india": "الهند",
+        "qatar": "قطر",
+        "uae": "الإمارات",
+        "bangladesh": "بنغلاديش"
+      }
+    },
+    "edit": {
+      "back": "العودة إلى القائمة",
+      "next": "التالي",
+      "save": "حفظ",
+      "changePhoto": "تغيير الصورة",
+      "placeholder": "أدخل النص هنا",
+      "stepComingSoon": "هذه الخطوة ستكون متاحة لاحقًا.",
+      "tabs": {
+        "workerInfo": "معلومات العامل",
+        "skills": "المهارات/الخدمة",
+        "pricing": "التسعير"
+      },
+      "fields": {
+        "fullName": "الاسم الكامل",
+        "category": "الفئة",
+        "location": "الموقع",
+        "nationality": "الجنسية",
+        "age": "العمر",
+        "experience": "الخبرة",
+        "education": "التعليم",
+        "dateOfBirth": "تاريخ الميلاد",
+        "maritalStatus": "الحالة الاجتماعية",
+        "availableUntil": "متاح حتى",
+        "description": "الوصف",
+        "skill": "مهارة",
+        "salary": "الراتب",
+        "salaryPeriod": "الفترة"
+      },
+      "periods": {
+        "month": "شهريًا",
+        "week": "أسبوعيًا",
+        "day": "يوميًا"
+      },
+      "skillsHint": "اكتب مهارة واضغط Enter للإضافة.",
+      "removeSkill": "إزالة المهارة"
+    }
+  },
+  "packages": {
+    "title": "الباقات",
+    "buyNow": "اشترِ الآن!",
+    "startingFrom": "ابتداءً من",
+    "priceAmount": "QAR{price}",
+    "priceDuration": "/لمدة {days} أيام",
+    "features": {
+      "adsInCategory": "إعلان واحد في جميع الفئات المدعومة فقط",
+      "validDays": "يمكن استخدام الباقة خلال 90 يومًا"
+    },
+    "checkout": {
+      "back": "رجوع",
+      "cardDetails": "تفاصيل البطاقة",
+      "addCard": "إضافة بطاقة",
+      "updateCard": "تحديث البطاقة",
+      "placeholder": "Placeholder",
+      "expiryPlaceholder": "MM/YY",
+      "fields": {
+        "name": "الاسم",
+        "cardNumber": "رقم البطاقة",
+        "expiry": "تاريخ الانتهاء",
+        "cvv": "CVV"
+      }
+    },
+    "confirm": {
+      "back": "رجوع",
+      "payments": "المدفوعات",
+      "edit": "تعديل",
+      "packageDetails": "تفاصيل الباقة",
+      "priceDetails": "تفاصيل السعر",
+      "periodTime": "مدة الفترة",
+      "periodValue": "شهر واحد",
+      "monthlyPayment": "الدفع الشهري",
+      "tax": "الضريبة",
+      "total": "الإجمالي",
+      "amount": "QAR{amount}",
+      "totalAmount": "QAR{amount}/شهريًا",
+      "confirm": "تأكيد الدفع"
+    }
+  },
+  "requests": {
+    "title": "الطلبات",
+    "stats": {
+      "ariaLabel": "ملخص الطلبات",
+      "totalRequests": "إجمالي الطلبات",
+      "completed": "مكتمل",
+      "pending": "قيد الانتظار"
+    },
+    "filter": {
+      "ariaLabel": "تصفية الطلبات",
+      "all": "كل الطلبات",
+      "completed": "مكتمل",
+      "pending": "قيد الانتظار"
+    },
+    "toolbar": {
+      "searchLabel": "بحث الطلبات",
+      "searchPlaceholder": "ابحث عن شيء",
+      "sortBy": "ترتيب حسب",
+      "filter": "تصفية"
+    },
+    "searchEmpty": {
+      "title": "لم يتم العثور على نتائج",
+      "description": "يرجى تفعيل خدمات الموقع للحصول على نتائج أفضل"
+    },
+    "filterDialog": {
+      "title": "تصفية",
+      "close": "إغلاق التصفية",
+      "category": "الفئة",
+      "status": "الحالة",
+      "placeholder": "اختر",
+      "reset": "إعادة تعيين",
+      "apply": "تطبيق",
+      "categories": {
+        "housemaid": "عاملة منزلية",
+        "nanny": "مربية",
+        "driver": "سائق",
+        "cook": "طباخ",
+        "caretaker": "مقدم رعاية"
+      },
+      "statuses": {
+        "completed": "مكتمل",
+        "pending": "قيد الانتظار"
+      }
+    },
+    "sortDialog": {
+      "title": "ترتيب حسب",
+      "close": "إغلاق الترتيب",
+      "apply": "تطبيق",
+      "newest": "الأحدث أولاً",
+      "oldest": "الأقدم أولاً",
+      "nameAsc": "الاسم أ–ي",
+      "nameDesc": "الاسم ي–أ"
+    },
+    "card": {
+      "empty": "لا توجد طلبات.",
+      "call": "اتصال",
+      "chat": "محادثة",
+      "whatsapp": "واتساب",
+      "dateSubmitted": "تاريخ التقديم: {date}",
+      "markCompleted": "وضع علامة مكتمل",
+      "status": {
+        "completed": "مكتمل",
+        "pending": "قيد الانتظار"
+      }
+    },
+    "completedSuccess": {
+      "title": "تم وضع علامة مكتمل على الطلب!",
+      "description": "لقد وضعت علامة مكتمل على طلب {customerName}",
+      "exploreMore": "استكشف المزيد"
+    },
+    "detail": {
+      "back": "العودة إلى الطلبات",
+      "title": "تفاصيل الطلب"
+    }
+  },
+  "agencies": {
+    "title": "الوكالات",
+    "description": "سيتم تنفيذ ميزة الوكالات في الوحدة 5."
+  },
+  "projects": {
+    "title": "المشاريع"
+  },
+  "clients": {
+    "title": "العملاء"
+  },
+  "users": {
+    "title": "المستخدمون"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "save": "حفظ",
+    "placeholder": "أدخل النص هنا",
+    "tabs": {
+      "notifications": "الإشعارات",
+      "security": "الأمان"
+    },
+    "fields": {
+      "timezone": "المنطقة الزمنية",
+      "currentPassword": "كلمة المرور الحالية",
+      "newPassword": "كلمة المرور الجديدة"
+    },
+    "sections": {
+      "notification": "الإشعار",
+      "changePassword": "تغيير كلمة المرور"
+    },
+    "toggles": {
+      "sendReceiveNotifications": "أرسل أو أستقبل الإشعارات",
+      "merchantOrder": "أستقبل طلبات التاجر",
+      "accountRecommendations": "هناك توصيات لحسابي",
+      "twoFactor": "تفعيل أو إلغاء المصادقة الثنائية"
+    },
+    "timezones": {
+      "dateLineWest": "(GMT-12:00) خط التاريخ الدولي الغربي",
+      "qatar": "(GMT+03:00) قطر",
+      "dubai": "(GMT+04:00) دبي",
+      "riyadh": "(GMT+03:00) الرياض"
+    }
+  },
+  "profile": {
+    "title": "الملف الشخصي",
+    "header": {
+      "ariaLabel": "ملف الوكالة",
+      "call": "اتصال",
+      "chat": "محادثة",
+      "whatsapp": "واتساب",
+      "share": "مشاركة",
+      "edit": "تعديل"
+    },
+    "about": {
+      "title": "عن الوكالة",
+      "mediaAria": "وسائط الوكالة",
+      "services": {
+        "nannies": "مربيات",
+        "drivers": "سائقون",
+        "caretakers": "مرافقون",
+        "electrician": "كهربائي",
+        "elderly": "كبار السن",
+        "nurse": "ممرض/ة",
+        "babySitter": "جليسة أطفال",
+        "cooker": "طاهٍ"
+      }
+    },
+    "reviews": {
+      "title": "التقييمات {count}",
+      "seeAll": "عرض الكل",
+      "back": "العودة إلى الملف",
+      "more": "المزيد من الخيارات",
+      "menu": {
+        "delete": "حذف",
+        "report": "الإبلاغ عن التقييم"
+      },
+      "deleteConfirm": {
+        "title": "هل أنت متأكد أنك تريد حذف هذا التقييم؟",
+        "description": "لا يمكن التراجع عن هذا الإجراء.",
+        "confirm": "نعم، حذف"
+      },
+      "reportSuccess": {
+        "title": "تم الإبلاغ عن هذا التقييم!",
+        "description": "سيتم إزالة التقييم من ملفك الشخصي.",
+        "exploreMore": "استكشف المزيد"
+      }
+    },
+    "edit": {
+      "back": "العودة إلى الملف",
+      "update": "تحديث",
+      "changePhoto": "تغيير صورة الملف",
+      "placeholder": "أدخل النص هنا",
+      "phonePlaceholder": "1234 4567",
+      "tabs": {
+        "editProfile": "تعديل الملف",
+        "about": "نبذة",
+        "media": "الوسائط"
+      },
+      "fields": {
+        "agencyName": "اسم الوكالة",
+        "country": "الدولة",
+        "email": "البريد الإلكتروني",
+        "city": "المدينة",
+        "contactNumber": "رقم التواصل",
+        "whatsappNumber": "رقم واتساب",
+        "address": "العنوان",
+        "countryCode": "رمز الدولة",
+        "about": "عن الوكالة",
+        "addPhotos": "إضافة صور"
+      },
+      "uploadHint": "اضغط هنا للرفع",
+      "removePhoto": "إزالة الصورة",
+      "countries": {
+        "qatar": "قطر",
+        "uae": "الإمارات",
+        "saudiArabia": "السعودية",
+        "kuwait": "الكويت"
+      },
+      "cities": {
+        "doha": "الدوحة",
+        "lusail": "لوسيل",
+        "alWakrah": "الوكرة",
+        "alKhor": "الخور"
+      }
+    }
+  },
+
+  "theme": {
+    "label": "المظهر",
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام"
+  },
+  "locale": {
+    "label": "اللغة",
+    "en": "الإنجليزية",
+    "ar": "العربية"
+  },
+  "header": {
+    "location": "الموقع",
+    "locationAria": "الموقع: {location}",
+    "notifications": "الإشعارات"
+  },
+  "locationModal": {
+    "title": "اختر الموقع",
+    "close": "إغلاق",
+    "mapTitle": "الخريطة",
+    "searchPlaceholder": "ابحث عن موقع",
+    "detailsTitle": "تفاصيل الموقع",
+    "updateLocation": "تحديث الموقع",
+    "missingApiKey": "أضف NEXT_PUBLIC_GOOGLE_MAPS_API_KEY إلى .env.local لتفعيل الخريطة. قيّد المفتاح عبر HTTP referrer في Google Cloud Console.",
+    "noResults": "لم يتم العثور على مواقع",
+    "resolvingAddress": "جاري تحديث العنوان…"
+  },
+  "notificationsPanel": {
+    "today": "اليوم",
+    "yesterday": "أمس",
+    "adActive": "تهانينا، إعلانك نشط الآن. اضغط هنا لعرض قائمتك",
+    "completeProfile": "مرحباً، لا تنسَ إكمال معلوماتك الشخصية",
+    "profileRequest": "طلب ملفك لدى Al Aman Workforce، تحقق منه الآن.",
+    "requestApproved": "وافقت Al Wakhra Workforce على طلبك، تحقق منه الآن"
+  }
+}

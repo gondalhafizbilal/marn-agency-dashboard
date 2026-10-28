@@ -1,0 +1,528 @@
+{
+  "common": {
+    "appName": "MARN",
+    "loading": "Loading...",
+    "tryAgain": "Try again",
+    "backToDashboard": "Back to dashboard",
+    "comingSoon": "Coming soon.",
+    "somethingWentWrong": "Something went wrong",
+    "unexpectedError": "An unexpected error occurred. Please try again.",
+    "pageNotFound": "Page not found",
+    "pageNotFoundDescription": "This page doesn’t exist or may have been moved. Head back to your dashboard to continue.",
+    "heroBanner": {
+      "ariaLabel": "Promotional banner"
+    }
+  },
+  "nav": {
+    "menu": "Main menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "dashboard": "Dashboard",
+    "requests": "Requests",
+    "ads": "Ads",
+    "profile": "Profile",
+    "settings": "Settings",
+    "packages": "Packages",
+    "logout": "Logout",
+    "agencies": "Agencies",
+    "projects": "Projects",
+    "clients": "Clients",
+    "users": "Users"
+  },
+  "logoutModal": {
+    "title": "Are you sure you want to logout?",
+    "confirm": "Logout"
+  },
+  "confirmDialog": {
+    "confirm": "Yes",
+    "cancel": "Cancel",
+    "close": "Close"
+  },
+  "shareDialog": {
+    "title": "Share to",
+    "close": "Close",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "whatsapp": "Whatsapp",
+    "linkedin": "Linkedin",
+    "pinterest": "Pinterest"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signingIn": "Signing in...",
+    "signUp": "Sign up",
+    "registering": "Creating account...",
+    "registerAccount": "Register Account",
+    "registerDescription": "Sign in with your email and password or social media to continue",
+    "agencyType": "Agency Type",
+    "agencyTypePlaceholder": "Select agency type",
+    "agencyTypeTravel": "Travel Agency",
+    "agencyTypeRecruitment": "Recruitment Agency",
+    "agencyTypeServices": "Services Agency",
+    "agencyTypeOther": "Other",
+    "addDocuments": "Add Documents",
+    "uploadHint": "Click here to upload",
+    "removeFile": "Remove file",
+    "documentsRequired": "Please upload at least one document",
+    "agreeTerms": "Agree with terms and privacy",
+    "alreadyHaveAccount": "Already have an account ?",
+    "welcomeBack": "Welcome Back !",
+    "forgotPassword": "Forgot password",
+    "forgotPasswordTitle": "Forgot Password",
+    "forgotPasswordLink": "Forgot password ?",
+    "signInDescription": "Sign in with your email and password or social media to continue",
+    "forgotPasswordDescription": "Enter your email and we'll send you a reset link",
+    "forgotPasswordSelectDescription": "Select which contact details should we use to reset your password",
+    "signUpComingSoon": "Registration form will be added next from Figma.",
+    "contactNumber": "Contact Number",
+    "countryCode": "Country code",
+    "phonePlaceholder": "1234 4567",
+    "email": "Email",
+    "emailPlaceholder": "name@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "••••••••",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "rememberMe": "Remember me",
+    "noAccount": "Don't have account ?",
+    "viaWhatsapp": "Via Whatsapp",
+    "viaEmail": "Via email",
+    "continue": "Continue",
+    "sendingCode": "Sending...",
+    "enterVerificationCode": "Enter Verification Code",
+    "otpSentWhatsapp": "Please enter 4 digit verification that have been sent to your Whatsapp.",
+    "otpSentEmail": "Please enter 4 digit verification that have been sent to your email.",
+    "otpRequired": "Enter the 4-digit code",
+    "didNotReceiveCode": "Don't receive code ?",
+    "resendCode": "Resend code",
+    "createNewPassword": "Create New Password",
+    "createNewPasswordDescription": "Please enter a new password to change",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "savePassword": "Save Password",
+    "savingPassword": "Saving...",
+    "passwordSuccessTitle": "Success!",
+    "passwordSuccessDescription": "You password has been changed. Please log in again with a new password.",
+    "logInAgain": "Log in"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "description": "Dashboard widgets and analytics will be implemented in Module 5.",
+    "adsStats": {
+      "ariaLabel": "Ads summary",
+      "totalAds": "Total Ads",
+      "active": "Active",
+      "inactive": "Inactive",
+      "drafts": "Drafts"
+    },
+    "adsFilter": {
+      "ariaLabel": "Filter ads",
+      "all": "All Ads",
+      "active": "Active",
+      "inactive": "Inactive",
+      "viewAll": "View All"
+    },
+    "adCard": {
+      "empty": "No ads in this category.",
+      "dateCreated": "Date Created: {date} (Valid for {days} Days)",
+      "metricActive": "Active",
+      "views": "{count} Views",
+      "clicks": "{count} Clicks",
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "draft": "Draft"
+      },
+      "actions": {
+        "republish": "Update Status",
+        "share": "Share",
+        "edit": "Edit",
+        "delete": "Delete",
+        "view": "View"
+      },
+      "confirm": {
+        "deleteTitle": "Are you sure you want to delete this Ad ?",
+        "deleteDescription": "The ad will be deleted from your listing.",
+        "deleteConfirm": "Delete",
+        "statusTitle": "You want to update this Ad status ?",
+        "markActive": "Mark as Active",
+        "markInactive": "Mark as Inactive"
+      }
+    },
+    "pagination": {
+      "ariaLabel": "Ads pagination",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "adDetails": {
+      "title": "Details",
+      "description": "Description",
+      "back": "Back to list",
+      "nationality": "Nationality",
+      "maritalStatus": "Marital Status",
+      "age": "Age",
+      "kids": "Kids",
+      "education": "Education",
+      "language": "Language",
+      "experience": "Experience",
+      "height": "Height",
+      "weight": "Weight",
+      "skills": {
+        "nannies": "Nannies",
+        "drivers": "Drivers",
+        "caretakers": "Caretakers",
+        "electrician": "Electrician",
+        "elderly": "Elderly",
+        "nurse": "Nurse",
+        "babySitter": "Baby Sitter",
+        "cooker": "Cooker"
+      }
+    }
+  },
+  "ads": {
+    "title": "Ads",
+    "toolbar": {
+      "searchLabel": "Search ads",
+      "searchPlaceholder": "Search for something",
+      "export": "Sort By",
+      "filter": "Filters",
+      "addAd": "Post an Ad"
+    },
+    "searchEmpty": {
+      "title": "Search not found",
+      "description": "Please enable your location services for more optimal result"
+    },
+    "filter": {
+      "title": "Filters",
+      "close": "Close filters",
+      "nationality": "Nationality",
+      "priceRange": "Price Range",
+      "priceMin": "Minimum price",
+      "priceMax": "Maximum price",
+      "priceLabel": "QAR{amount}",
+      "reset": "Reset",
+      "apply": "Apply",
+      "nationalities": {
+        "pakistan": "Pakistan",
+        "india": "India",
+        "qatar": "Qatar",
+        "uae": "UAE",
+        "bangladesh": "Bangladesh"
+      }
+    },
+    "edit": {
+      "back": "Back to list",
+      "next": "Next",
+      "save": "Save",
+      "changePhoto": "Change photo",
+      "placeholder": "Input Text Here",
+      "stepComingSoon": "This step will be available next.",
+      "tabs": {
+        "workerInfo": "Worker Info",
+        "skills": "Skills/Service",
+        "pricing": "Pricing"
+      },
+      "fields": {
+        "fullName": "Full Name",
+        "category": "Category",
+        "location": "Location",
+        "nationality": "Nationality",
+        "age": "Age",
+        "experience": "Experience",
+        "education": "Education",
+        "dateOfBirth": "Date of Birth",
+        "maritalStatus": "Marital Status",
+        "availableUntil": "Available Until",
+        "description": "Description",
+        "skill": "Skill",
+        "salary": "Salary",
+        "salaryPeriod": "Period"
+      },
+      "periods": {
+        "month": "Per Month",
+        "week": "Per Week",
+        "day": "Per Day"
+      },
+      "skillsHint": "Type a skill and press Enter to add.",
+      "removeSkill": "Remove skill"
+    }
+  },
+  "packages": {
+    "title": "Packages",
+    "buyNow": "Buy Now!",
+    "startingFrom": "Starting from",
+    "priceAmount": "QAR{price}",
+    "priceDuration": "/for {days} Days",
+    "features": {
+      "adsInCategory": "1 ads in all supported category only",
+      "validDays": "Package can be used within 90 days"
+    },
+    "checkout": {
+      "back": "Back",
+      "cardDetails": "Card Details",
+      "addCard": "Add Card",
+      "updateCard": "Update Card",
+      "placeholder": "Placeholder",
+      "expiryPlaceholder": "MM/YY",
+      "fields": {
+        "name": "Name",
+        "cardNumber": "Card Number",
+        "expiry": "Expired",
+        "cvv": "Cvv"
+      }
+    },
+    "confirm": {
+      "back": "Back",
+      "payments": "Payments",
+      "edit": "Edit",
+      "packageDetails": "Package Details",
+      "priceDetails": "Price Details",
+      "periodTime": "Period time",
+      "periodValue": "1 Month",
+      "monthlyPayment": "Monthly payment",
+      "tax": "Tax",
+      "total": "Total",
+      "amount": "QAR{amount}",
+      "totalAmount": "QAR{amount}/mon",
+      "confirm": "Confirm Payment"
+    }
+  },
+  "requests": {
+    "title": "Requests",
+    "stats": {
+      "ariaLabel": "Requests summary",
+      "totalRequests": "Total Requests",
+      "completed": "Completed",
+      "pending": "Pending"
+    },
+    "filter": {
+      "ariaLabel": "Filter requests",
+      "all": "All Requests",
+      "completed": "Completed",
+      "pending": "Pending"
+    },
+    "toolbar": {
+      "searchLabel": "Search requests",
+      "searchPlaceholder": "Search for something",
+      "sortBy": "Sort By",
+      "filter": "Filters"
+    },
+    "searchEmpty": {
+      "title": "Search not found",
+      "description": "Please enable your location services for more optimal result"
+    },
+    "filterDialog": {
+      "title": "Filters",
+      "close": "Close filters",
+      "category": "Category",
+      "status": "Status",
+      "placeholder": "Select",
+      "reset": "Reset",
+      "apply": "Apply",
+      "categories": {
+        "housemaid": "Housemaid",
+        "nanny": "Nanny",
+        "driver": "Driver",
+        "cook": "Cook",
+        "caretaker": "Caretaker"
+      },
+      "statuses": {
+        "completed": "Completed",
+        "pending": "Pending"
+      }
+    },
+    "sortDialog": {
+      "title": "Sort By",
+      "close": "Close sort",
+      "apply": "Apply",
+      "newest": "Newest first",
+      "oldest": "Oldest first",
+      "nameAsc": "Name A–Z",
+      "nameDesc": "Name Z–A"
+    },
+    "card": {
+      "empty": "No requests found.",
+      "call": "Call",
+      "chat": "Chat",
+      "whatsapp": "WhatsApp",
+      "dateSubmitted": "Date Submitted: {date}",
+      "markCompleted": "Mark as Completed",
+      "status": {
+        "completed": "Completed",
+        "pending": "Pending"
+      }
+    },
+    "completedSuccess": {
+      "title": "Request Marked as Completed!",
+      "description": "You have marked {customerName} request as completed",
+      "exploreMore": "Explore more"
+    },
+    "detail": {
+      "back": "Back to requests",
+      "title": "Request Details"
+    }
+  },
+  "agencies": {
+    "title": "Agencies",
+    "description": "Agencies feature will be implemented in Module 5."
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "clients": {
+    "title": "Clients"
+  },
+  "users": {
+    "title": "Users"
+  },
+  "settings": {
+    "title": "Settings",
+    "save": "Save",
+    "placeholder": "Input Text Here",
+    "tabs": {
+      "notifications": "Notifications",
+      "security": "Security"
+    },
+    "fields": {
+      "timezone": "Timezone",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password"
+    },
+    "sections": {
+      "notification": "Notification",
+      "changePassword": "Change Password"
+    },
+    "toggles": {
+      "sendReceiveNotifications": "I send or receive Notifications",
+      "merchantOrder": "I receive merchant order",
+      "accountRecommendations": "There are recommendation for my account",
+      "twoFactor": "Enable or disable two factor authentication"
+    },
+    "timezones": {
+      "dateLineWest": "(GMT-12:00) International Date Line West",
+      "qatar": "(GMT+03:00) Qatar",
+      "dubai": "(GMT+04:00) Dubai",
+      "riyadh": "(GMT+03:00) Riyadh"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "header": {
+      "ariaLabel": "Agency profile",
+      "call": "Call",
+      "chat": "Chat",
+      "whatsapp": "WhatsApp",
+      "share": "Share",
+      "edit": "Edit"
+    },
+    "about": {
+      "title": "About Agency",
+      "mediaAria": "Agency media",
+      "services": {
+        "nannies": "Nannies",
+        "drivers": "Drivers",
+        "caretakers": "Caretakers",
+        "electrician": "Electrician",
+        "elderly": "Elderly",
+        "nurse": "Nurse",
+        "babySitter": "Baby Sitter",
+        "cooker": "Cooker"
+      }
+    },
+    "reviews": {
+      "title": "Reviews {count}",
+      "seeAll": "See all",
+      "back": "Back to profile",
+      "more": "More options",
+      "menu": {
+        "delete": "Delete",
+        "report": "Report Review"
+      },
+      "deleteConfirm": {
+        "title": "Are you sure you want to delete this review?",
+        "description": "This action cannot be undone.",
+        "confirm": "Yes, delete"
+      },
+      "reportSuccess": {
+        "title": "This review has been reported!",
+        "description": "The review will be removed from your profile.",
+        "exploreMore": "Explore more"
+      }
+    },
+    "edit": {
+      "back": "Back to profile",
+      "update": "Update",
+      "changePhoto": "Change profile photo",
+      "placeholder": "Input Text Here",
+      "phonePlaceholder": "1234 4567",
+      "tabs": {
+        "editProfile": "Edit Profile",
+        "about": "About",
+        "media": "Media"
+      },
+      "fields": {
+        "agencyName": "Agency Name",
+        "country": "Country",
+        "email": "Email",
+        "city": "City",
+        "contactNumber": "Contact Number",
+        "whatsappNumber": "Whatsapp Number",
+        "address": "Address",
+        "countryCode": "Country code",
+        "about": "About Agency",
+        "addPhotos": "Add Photos"
+      },
+      "uploadHint": "Click here to upload",
+      "removePhoto": "Remove photo",
+      "countries": {
+        "qatar": "Qatar",
+        "uae": "UAE",
+        "saudiArabia": "Saudi Arabia",
+        "kuwait": "Kuwait"
+      },
+      "cities": {
+        "doha": "Doha",
+        "lusail": "Lusail",
+        "alWakrah": "Al Wakrah",
+        "alKhor": "Al Khor"
+      }
+    }
+  },
+
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "locale": {
+    "label": "Language",
+    "en": "English",
+    "ar": "Arabic"
+  },
+  "header": {
+    "location": "Location",
+    "locationAria": "Location: {location}",
+    "notifications": "Notifications"
+  },
+  "locationModal": {
+    "title": "Select location",
+    "close": "Close",
+    "mapTitle": "Map",
+    "searchPlaceholder": "Search Location",
+    "detailsTitle": "Location Details",
+    "updateLocation": "Update location",
+    "missingApiKey": "Add NEXT_PUBLIC_GOOGLE_MAPS_API_KEY to .env.local to enable the map. Restrict the key by HTTP referrer in Google Cloud Console.",
+    "noResults": "No locations found",
+    "resolvingAddress": "Updating address…"
+  },
+  "notificationsPanel": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "adActive": "Congratulations, your ad is now active. click here to see your listing",
+    "completeProfile": "Welcome, Don't forget to complete your personal info",
+    "profileRequest": "Al Aman Workforce your profile request, check it now.",
+    "requestApproved": "Al Wakhra Workforce approved your request, check it now"
+  }
+}

@@ -1,0 +1,176 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ─── MARN brand tokens (from Figma) ─────────────────────────────────────── */
+
+:root {
+  /* Brand primary (maroon) */
+  --brand-600: #a11d3a;
+  --brand-700: #7c0a23;
+  --brand-800: #67051b;
+  --brand-900: #540113;
+  --brand-950: #500516;
+
+  /* Auth surface */
+  --auth-panel: #f0e9df;
+  --auth-gradient: linear-gradient(180deg, #a11d3a 0%, #540113 128.43%);
+
+  /* Neutrals (Figma Secondary/Gray) */
+  --neutral-800: #1f2a37;
+  --neutral-400: #9da4ae;
+  --neutral-300: #d2d6db;
+  --base-50: #ffffff;
+  --gray-100: #f2f4f7;
+  --error-400: #f97066;
+  --brand-25: #ffe4ea;
+  --brand-50: #ffd1db;
+
+  /* Shadcn semantic mapping → MARN */
+  --background: #ffffff;
+  --foreground: #1f2a37;
+  --card: #ffffff;
+  --card-foreground: #1f2a37;
+  --popover: #ffffff;
+  --popover-foreground: #1f2a37;
+  --primary: #a11d3a;
+  --primary-foreground: #ffffff;
+  --secondary: #f0e9df;
+  --secondary-foreground: #1f2a37;
+  --muted: #f5f2ec;
+  --muted-foreground: #9da4ae;
+  --accent: #f0e9df;
+  --accent-foreground: #1f2a37;
+  --destructive: #a11d3a;
+  --destructive-foreground: #ffffff;
+  --border: #d2d6db;
+  --input: #d2d6db;
+  --ring: #7c0a23;
+  --radius: 0.75rem;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #1f2a37;
+  --sidebar-border: #d2d6db;
+  --sidebar-accent: #f0e9df;
+  --sidebar-accent-foreground: #1f2a37;
+  --sidebar-primary: #a11d3a;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-ring: #7c0a23;
+  --chart-1: #a11d3a;
+  --chart-2: #7c0a23;
+  --chart-3: #67051b;
+  --chart-4: #9da4ae;
+  --chart-5: #1f2a37;
+}
+
+.dark {
+  --background: #1a0a0e;
+  --foreground: #f0e9df;
+  --card: #2a1016;
+  --card-foreground: #f0e9df;
+  --popover: #2a1016;
+  --popover-foreground: #f0e9df;
+  --primary: #c43a56;
+  --primary-foreground: #ffffff;
+  --secondary: #3a1520;
+  --secondary-foreground: #f0e9df;
+  --muted: #3a1520;
+  --muted-foreground: #9da4ae;
+  --accent: #3a1520;
+  --accent-foreground: #f0e9df;
+  --destructive: #c43a56;
+  --destructive-foreground: #ffffff;
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: #a11d3a;
+  --sidebar: #2a1016;
+  --sidebar-foreground: #f0e9df;
+  --sidebar-border: oklch(1 0 0 / 12%);
+  --sidebar-accent: #3a1520;
+  --sidebar-accent-foreground: #f0e9df;
+  --sidebar-primary: #c43a56;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-ring: #a11d3a;
+  --chart-1: #c43a56;
+  --chart-2: #a11d3a;
+  --chart-3: #f0e9df;
+  --chart-4: #9da4ae;
+  --chart-5: #7c0a23;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+
+  /* Brand utilities */
+  --color-brand-600: var(--brand-600);
+  --color-brand-700: var(--brand-700);
+  --color-brand-800: var(--brand-800);
+  --color-brand-900: var(--brand-900);
+  --color-brand-950: var(--brand-950);
+  --color-auth-panel: var(--auth-panel);
+  --color-neutral-800: var(--neutral-800);
+  --color-neutral-400: var(--neutral-400);
+  --color-neutral-300: var(--neutral-300);
+  --color-gray-100: var(--gray-100);
+  --color-error-400: var(--error-400);
+  --color-brand-25: var(--brand-25);
+  --color-brand-50: var(--brand-50);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: 1.5625rem; /* 25px — auth panel */
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-sans);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans), system-ui, sans-serif;
+  }
+
+  html {
+    @apply font-sans;
+  }
+}
